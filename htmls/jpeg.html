@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Jeremy Coulson">
+	<title>Mapbook Page</title>
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/common.js"></script>
+	<script>
+		//<![CDATA[
+		$(document).ready(function() {
+			var urlQuery = location.search;
+			urlQuery = urlQuery.replace('?', '');
+			var split = urlQuery.split('=');
+			if (split[1] != "undefined") {
+				$("img.dynamic").attr("src", "../jpegs/mapbookjpegs/" + split[1] + ".jpg");
+			}
+		});
+		//]]>
+	</script>
+	<link rel="stylesheet" href="../css/style.css"/>
+</head>
+
+<body>
+	<div id="nav">
+		<select id="selNav" name="selNav">
+			<option value="select">- select destination -</option>
+			<option value="county_index_map.html">County Index Map</option>
+			<option value="county_street_index.html">County Street Index</option>
+			<option value="city_street_index.html">City Street Index</option>
+			<option value="search.html">Address Search</option>
+		</select>
+	</div>
+	<img class="dynamic" src="../jpegs/mapbookjpegs/default.gif" alt=" " /><br/>   
+</body>
+
+</html>

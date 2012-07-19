@@ -1,0 +1,132 @@
+body {
+	padding-top: 5em; /* Padding on body to make room for tabs in GoodReader. */
+}
+
+.mapgrid {}
+
+img.mapgrid {
+}
+
+img.dynamic {
+	border: 1px solid #000000; 
+	max-width: 100%; 
+	height: auto;
+}
+
+.additionalLinks ul {
+	list-style-type: none;
+	display: inline;
+	font-size: 3em;
+}
+
+.additionalLinks ul li {
+	border-style: solid;
+	border-width: 1px;
+	padding: 5px;
+	margin-right: 1em;
+	margin-top: .5em;
+	width: 50%;
+	/*float: left;*/
+	-webkit-transition: all 0.5s linear;
+	-moz-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+}
+
+.additionalLinks li a:link, .additionalLinks li a:visited  {
+	margin-bottom: 5px;
+	color: #0033FF;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.additionalLinks li {
+	background-color: #C9F8F8;
+}
+
+.additionalLinks li:hover {
+	background-color: #FFFBD6;
+}
+
+ul.backul li {
+	margin-top: 2em;
+}
+
+div.clearer {
+	clear: both;
+	height: 50px;
+}
+
+p.nav {
+	font-size: 3em;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 0;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table tr td {
+	border: 1px solid #000000;
+	padding: .5em;
+	font-size: 2em;
+}
+
+table tr th {
+	border: 1px solid #000000; 
+	background-color:#CCCCCC;
+	padding: .5em;
+	font-size: 2em;
+}
+
+a:hover, a:focus {
+	text-decoration: none;
+}
+
+tr.navRow {
+	background-color: #007f00;
+	color: #ffffff;
+}
+
+tr.navRow a {
+	color: #ffffff;
+}
+
+#selNav  {
+	font-size: 3em;
+	margin-bottom: 1em;
+}
+
+input[type="text"], input[type="button"] {
+	font-size: 3em;
+	margin-bottom: 1em;
+	/*display: none;*/
+}
+
+a[href="search.html"] {
+	font-size: 3em;
+	margin-bottom: 1em;
+	display: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+	font-size: 3em;
+}
+
+#searchresult {
+	font-size: 3em;
+}
+
+/* Forced placeholder to be black. Removed. Left for reference.
+::-webkit-input-placeholder {
+    color: #000000;
+}
+:-moz-placeholder {
+    color: #000000;
+}
+input:-ms-input-placeholder {
+	color: #000000;
+}
+*/
