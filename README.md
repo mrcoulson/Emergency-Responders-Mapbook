@@ -25,7 +25,7 @@ This is where all of the HTML files for the web application live.  They're all s
 
 ### JPEGs
 
-The JPEGs folder contains the images required for the project.  There are two folders: one for index maps and one for the mapbook pages themselves.  These JPEGs are exported from ArcMap with a Python script.  Here on GitHub we have only included a subset of the images to be respectful of storage concerns.
+The JPEGs folder contains the images required for the project.  There are two folders: one for index maps and one for the mapbook pages themselves.  These JPEGs are exported from ArcMap with a Python script.  We do not include the images in the mapbookjpegs folder on GitHub because there are so many.  You can download those from [http://goo.gl/epPrK](http://goo.gl/epPrK).
 
 ### JS
 
