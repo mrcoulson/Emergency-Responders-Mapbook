@@ -14,7 +14,7 @@
 			var urlQuery = location.search;
 			urlQuery = urlQuery.replace('?', '');
 			var split = urlQuery.split('=');
-			if (split[1] != "undefined") {
+			if (split[1] != undefined) {
 				$("img.dynamic").attr("src", "../jpegs/mapbookjpegs/" + split[1] + ".jpg");
 			}
 		});
