@@ -1,0 +1,35 @@
+body {
+	background-color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	color: #999;
+}
+
+img {
+	border: 0;
+}
+
+p {
+	font-size: .8em;
+}
+
+p a {
+	color: #999;
+}
+
+a#taptostart {
+	text-decoration: none;
+	color: #999;
+}
+
+#splashView {
+	margin-bottom: 1em;
+}
+
+#splashView img {
+	width: 10em;
+	height: auto;
+}
+
+#taptostart {
+}

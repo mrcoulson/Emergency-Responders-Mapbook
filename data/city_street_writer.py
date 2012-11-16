@@ -37,6 +37,7 @@ f.write("<!DOCTYPE html>\n\n\
 \t\t\t<option value=\"county_street_index.html\">County Street Index</option>\n\
 \t\t\t<option value=\"city_street_index.html\">City Street Index</option>\n\
 \t\t\t<option value=\"search.html\">Address Search</option>\n\
+\t\t\t<option value=\"../index.html\">Information</option>\n\
 \t\t</select>\n\
 \t</div>\n\
 \t<p class=\"nav\">\n\
