@@ -19,25 +19,25 @@ This folder contains an HTML index file.
 
 This contains any images needed for the index file.
 
-### CSS
+### css
 
 This folder obviously just holds the CSS files for the web pages.
 
-### Data
+### data
 
 This folder contains CSV files and Python scripts.  The CSV files are produced with ESRI ArcMap.  The Python scripts read the CSV files and write them into HTML and JavaScript files.  In our implementation of the application, the end user does not need any interaction with these files.  They are simply there to update data when we push out a new version.
 
-### HTMLs
+### htmls
 
 This is where all of the HTML files for the web application live.  They're all static HTML files because the application needs to run in an environment without server-side processing.
 
-### JPEGs
+### jpegs
 
-The JPEGs folder contains the images required for the project.  There are two folders: one for index maps and one for the mapbook pages themselves.  These JPEGs are exported from ArcMap with a Python script.  We do not include the images in the mapbookjpegs folder on GitHub because there are so many.  You can download those from [http://goo.gl/J8sRN](http://goo.gl/J8sRN).
+The jpegs folder contains the images required for the project.  There are two folders: one for index maps and one for the mapbook pages themselves.  These JPEGs are exported from ArcMap with a Python script.  We do not include the images in the mapbookjpegs folder on GitHub because there are so many.  You can download those from [http://goo.gl/J8sRN](http://goo.gl/J8sRN).
 
-### JS
+### js
 
-The JS folder contains the JavaScript files necessary to run the application.  This includes the jQuery library, general scripts to run the web pages, and the data needed for the address search.
+The js folder contains the JavaScript files necessary to run the application.  This includes the jQuery library, general scripts to run the web pages, and the data needed for the address search.
 
 How It Works
 ------------
