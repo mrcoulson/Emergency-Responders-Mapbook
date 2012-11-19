@@ -4,7 +4,5 @@ $(document).ready(function() {
 			window.location.href = $("#selNav").val();
 		}
 	});
-	if ($("img[usemap]").length > 0) {
-		$("img[usemap]").rwdImageMaps();
-	}
+	$("img[usemap]").rwdImageMaps();
 });
