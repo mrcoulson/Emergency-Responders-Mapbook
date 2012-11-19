@@ -4,7 +4,7 @@ Emergency Responders Mapbook
 Background
 ----------
 
-Emergency response personnel (e.g., ambulance drivers or police officers) were navigating the county with a massive printed tome of paper maps.  This application gives them an electronic equivalent that allows them to find addresses more quickly and easily.  One of the biggest (and most fun) challenges so far has been the need to create a web application that can run 100% locally on the device (we use it on an iPad) without needing any network connection.  
+Emergency response personnel (e.g., ambulance drivers or police officers) were navigating the county with a massive printed tome of paper maps.  This application gives them an electronic equivalent that allows them to find addresses more quickly and easily.  One of the biggest (and most fun) challenges so far has been the need to create a web application that can run 100% locally on the device (we use it on an iPad) without needing any network connection.  Now that we are actually offering this thing for download on our site, I've changed the versioning from 0.x to 1.x.
 
 Components
 ----------
