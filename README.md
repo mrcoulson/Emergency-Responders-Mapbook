@@ -37,7 +37,7 @@ The jpegs folder contains the images required for the project.  There are two fo
 
 ### js
 
-The js folder contains the JavaScript files necessary to run the application.  This includes the jQuery library, general scripts to run the web pages, and the data needed for the address search.
+The js folder contains the JavaScript files necessary to run the application.  This includes the jQuery library, Matt Stow's [jQuery-rwdImageMaps](https://github.com/stowball/jQuery-rwdImageMaps) script, general scripts to run the web pages, and the data needed for the address search.
 
 How It Works
 ------------

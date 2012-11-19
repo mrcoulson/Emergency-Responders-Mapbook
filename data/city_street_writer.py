@@ -19,6 +19,7 @@ f.write("<!DOCTYPE html>\n\n\
 \t<title>Streets</title>\n\
 \t<link rel=\"stylesheet\" href=\"../css/style.css\" />\n\
 \t<script src=\"../js/jquery.min.js\"></script>\n\
+\t<script src=\"../js/jquery.rwdImageMaps.min.js\"></script>\n\
 \t<script src=\"../js/outputready.js\"></script>\n\
 \t<script src=\"../js/common.js\"></script>\n\
 \t<script>\n\
